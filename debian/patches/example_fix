@@ -1,0 +1,17 @@
+Forwarded: https://github.com/festvox/flite/pull/51
+
+---
+ doc/flite.texi |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+--- a/doc/flite.texi
++++ b/doc/flite.texi
+@@ -816,7 +816,7 @@ distribution, the example diphone voice
+ 
+ Here is a simple C program that uses the flite library
+ @example
+-#include "flite.h"
++#include <flite/flite.h>
+ 
+ cst_voice * register_cmu_us_kal(const char *voxdir);
+ 

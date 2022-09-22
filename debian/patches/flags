@@ -1,0 +1,18 @@
+---
+ doc/flite.texi |    5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+--- a/doc/flite.texi
++++ b/doc/flite.texi
+@@ -842,8 +842,9 @@ Assuming the shell variable FLITEDIR is
+ the following will compile the system (with appropriate changes for
+ your platform if necessary).
+ @example
+-gcc -Wall -g -o flite_test flite_test.c -I$FLITEDIR/include -L$FLITEDIR/lib 
+-    -lflite_cmu_us_kal -lflite_usenglish -lflite_cmulex -lflite -lm
++gcc -Wall -g -o flite_test flite_test.c -I$FLITEDIR/include
++    -L$FLITEDIR/lib -lflite_cmu_us_kal -lflite_usenglish
++    -lflite_cmulex -lflite -lm
+ @end example
+ 
+ @section Public Functions
