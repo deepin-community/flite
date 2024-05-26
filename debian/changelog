@@ -1,3 +1,46 @@
+flite (2.2-6) unstable; urgency=medium
+
+  [ Hilmar Preusse ]
+  * patches/texinfo70: Fix build against TexInfo 7.0.x (Closes: Bug#1030385)
+
+ -- Samuel Thibault <sthibault@debian.org>  Mon, 10 Jul 2023 23:32:27 +0200
+
+flite (2.2-5) unstable; urgency=medium
+
+  * watch: Use tags instead of releases, and generalize.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 23 Oct 2022 12:14:15 +0200
+
+flite (2.2-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on dpkg-dev.
+
+  [ Jakub Wilk ]
+  * Update upstream URLs (Closes: Bug#1011779)
+
+  [ Samuel Thibault ]
+  * control: Make flite Multi-Arch: foreign.
+  * debian/libflite1.lintian-overrides: Update lintian suppression again.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sat, 17 Sep 2022 21:16:07 +0200
+
+flite (2.2-3) unstable; urgency=medium
+
+  [ Samuel Thibault ]
+  * Play cat and mice again with lintian warning suppression
+  * control: Bump Standards-Version to 4.6.0 (no change)
+
+  [ Debian Janitor ]
+  * Fix field name case in debian/control (Multi-arch => Multi-Arch).
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on texinfo.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sat, 29 Jan 2022 14:30:44 +0100
+
 flite (2.2-2) unstable; urgency=medium
 
   [ Debian Janitor ]
