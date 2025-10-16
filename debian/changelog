@@ -1,3 +1,19 @@
+flite (2.2-7) unstable; urgency=medium
+
+  [ Jakub Wilk ]
+  * Fix formatting of man page references (Closes: Bug#1071188)
+
+  [ Debian Janitor ]
+  * Update standards version to 4.6.1, no changes needed.
+  * clean: Fix cleaning doc/html/ and complete cleaning (Closes: Bug#1044965,
+    Bug#1049543)
+
+  [ Samuel Thibault ]
+  * patches/make_voice_list: Fix rule to create flite_voice_list.c.
+  * patches/shared_os: Fix parallel build.
+
+ -- Samuel Thibault <sthibault@debian.org>  Thu, 05 Dec 2024 18:46:18 +0100
+
 flite (2.2-6) unstable; urgency=medium
 
   [ Hilmar Preusse ]
