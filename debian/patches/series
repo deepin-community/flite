@@ -1,3 +1,5 @@
+make_voice_list
+shared_os
 flite.texi.patch
 verbose
 typos-found-by-lintian.patch

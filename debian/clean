@@ -13,7 +13,8 @@ doc/flite.ps
 doc/flite.toc
 doc/flite.tp
 doc/flite.vr
-doc/html
+doc/html/
 include/flite_version.h
 lib/
 main/flite_voice_list.c
+main/flite_lang_list.c
